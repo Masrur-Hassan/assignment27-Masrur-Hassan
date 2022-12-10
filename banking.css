@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    fc {
+        background-color: rgb(10, 148, 194);
+        width: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}

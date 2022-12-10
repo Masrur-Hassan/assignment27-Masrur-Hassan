@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/banking.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>E-banking</title>
+</head>
+
+<body>
+
+
+    <div class="container  my-4">
+        <h1 class="text-success text-center mb-5">Welcome to your <span class="text-danger"> baaaaank
+                account!!!</span></h1>
+        <br><br>
+
+        <div class="row my-sm-3 justify-content-center align-items-sm-center flex-nowrap">
+            <div class="bg-success w-25 p-sm-3 m-4 fs-3 rounded-4 text-white col-sm-12">
+                <p>diposit <br>
+                <h1>$ <span id="deposit-total">0000</span> </h1>
+                </p>
+            </div>
+            <div class="bg-danger w-25 p-sm-3 m-4 fs-3 rounded-4 text-white col-sm-12">
+                <p>diposit <br>
+                <h1>$ <span id="widraw-total">0000</span> </h1>
+                </p>
+            </div>
+            <div class="bg-secondary w-25 p-sm-3 m-4 fs-3 rounded-4 text-white col-sm-12">
+                <p>diposit <br>
+                <h1>$ <span id="total">1500</span> </h1>
+                </p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <br><br><br> <br><br><br>
+
+    <!-- diposit and widraw input feild -->
+    <div class="justify-content-center row ">
+        <div class=" fc bg-light rounded-4 shadow-lg w-25 p-sm-5">
+            <div class="col-sm-10 ">
+                <input type="number" class="form-control" placeholder="Enter your diposit ammount"
+                    id="inputYourDipositAmmount">
+                <br>
+                <button class="btn btn-success " id="deposit-button">diposit</button>
+            </div>
+        </div>
+
+
+        <div class="fc bg-light rounded-4 shadow-lg w-25 ms-5 p-sm-5">
+
+            <div class="col-sm-10 ">
+                <input type="number" class="form-control " placeholder="Enter your widraw ammount"
+                    id="inputYourWidrawAmmount">
+                <br>
+                <button class="btn btn-danger " id="widraw-button">widraw</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/banking.js"></script>
+    <script>
+
+
+    </script>
+
+</body>
+
+</html>
