@@ -7,7 +7,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     const getInputAmmout = parseFloat(getInput);
     //console.log(getInput);
 
-    //add with deposti total
+    //add input numberwith depostit total
     const depositToatal = document.getElementById('deposit-total');
 
 
@@ -41,7 +41,7 @@ document.getElementById('widraw-button').addEventListener('click', function () {
     const getWidrawInputAmmout = parseFloat(getWidrawInput);
     //console.log(getInput);
 
-    //add with deposti total
+    //add input number with  depostit total
     const widrawToatal = document.getElementById('widraw-total');
 
 
